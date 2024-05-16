@@ -1,2 +1,1 @@
-# 0x00. Personal data
-- By aezzahir
+0x00. Personal data
