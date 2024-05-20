@@ -27,6 +27,6 @@ def stats() -> str:
     return jsonify(stats)
 
 
-@app_views.route('/unauthorized', methods=['GET'], strict_slashes=False)
+@app_views.route('/api/v1/unauthorized', methods=['GET'], strict_slashes=False)
 def unauthorized() -> str:
     abort(401)
