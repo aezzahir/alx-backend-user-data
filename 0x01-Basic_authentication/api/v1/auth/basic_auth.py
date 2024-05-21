@@ -2,9 +2,9 @@
 """
 6. Basic auth
 """
-from flask import request
-from typing import List, TypeVar, Optional
 from api.v1.auth.auth import Auth
+from typing import Tuple, TypeVar
+from models.user import User
 import base64
 
 
