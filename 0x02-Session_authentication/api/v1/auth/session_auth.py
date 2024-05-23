@@ -43,4 +43,4 @@ class SessionAuth(Auth):
         if user_id in None:
             return None
         user = User.get(user_id)
-        return User
+        return user
